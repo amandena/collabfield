@@ -4,7 +4,7 @@ import image from '../assets/IMG_2052.jpg'
 const Home = () => {
   return(
     <div>
-      <img src={image} alt="that's me!" width='400'></img>
+      <img src={image} alt="that's me!" width='400'/>
     </div>
   )
 }
