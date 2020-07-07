@@ -1,3 +1,10 @@
 .App {
   text-align: center;
+  width: fit-content;
+  padding: 0px 150px;
+}
+
+.about {
+  padding: 1px;
+  background-color: rgb(211, 211, 211);
 }
