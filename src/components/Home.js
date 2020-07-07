@@ -3,7 +3,7 @@ import image from '../assets/IMG_2052.jpg'
 
 const Home = () => {
   return(
-    <div>
+    <div className='home'>
       <img src={image} alt="that's me!" width='400'/>
     </div>
   )

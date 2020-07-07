@@ -10,9 +10,9 @@ import Footer from './containers/Footer'
 
 function App() {
   return(
-    <div className="App">
+    <div className='App'>
       <NavBar/>
-      
+
       <h1>Amanda M Johnson</h1>
 
       <Home/>

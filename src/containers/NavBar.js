@@ -4,7 +4,7 @@ import SocialMedia from '../components/SocialMedia'
 
 const NavBar = () => {
   return(
-    <div>
+    <div className='navbar'>
       <Link to='/'>Home</Link>
       <Link to='#'>About</Link>
       <Link to='#'>Portfolio</Link>
