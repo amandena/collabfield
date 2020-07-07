@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 import NavBar from './containers/NavBar'
-import Footer from './containers/Footer'
+import Footer from './components/Footer'
 
 function App() {
   return(
