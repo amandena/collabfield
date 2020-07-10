@@ -1,11 +1,16 @@
 import React from 'react'
 
-const Blog = () => {
-  return(
-    <div className='blog'>
-      Blog
-    </div>
-  )
+class Blog extends React.Component {
+  componentDidMount() {
+    window.mediumWidget();
+  }
+  render() {
+    return(
+      <div className='blog'>
+        <div id="medium-widget"></div>
+      </div>
+    )
+  }
 }
 
 export default Blog
