@@ -14,6 +14,7 @@ function App() {
       <NavBar/>
 
       <h1>Amanda M Johnson</h1>
+      <h3>Full Stack Software Engineer</h3>
 
       <Home/>
       <About/>
