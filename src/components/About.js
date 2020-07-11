@@ -15,3 +15,5 @@ const About = () => {
 }
 
 export default About
+
+// <img src={js} alt='' width='40'/>
