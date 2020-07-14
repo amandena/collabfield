@@ -4,7 +4,7 @@ import image from '../assets/square.jpg'
 const Home = () => {
   return(
     <div className='home'>
-      <img src={image} alt="that's me!" width='400'/>
+      <img className='profile-pic' src={image} alt="that's me!" width='400'/>
     </div>
   )
 }

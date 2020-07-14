@@ -2,6 +2,7 @@
   text-align: center;
   width: fit-content;
   padding: 0px 150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .about {
@@ -10,4 +11,16 @@
 
 #medium-widget {
   text-align: left;
+}
+
+.contact input[type=text] {
+  width: 400px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.contact textarea {
+  width: 403px;
+  height: 140px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
