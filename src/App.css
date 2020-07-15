@@ -24,3 +24,28 @@
   height: 140px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.navbar, .footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: large;
+}
+
+.social-media { 
+  padding-top: 20px;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  background-color: grey; 
+}
