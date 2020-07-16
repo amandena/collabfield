@@ -7,7 +7,7 @@ class Blog extends React.Component {
   render() {
     return(
       <div className='blog'>
-        <h3>Here are my latest Blog posts:</h3>
+        <h2>Here Are My Latest Blog Posts:</h2>
         <div id="medium-widget"></div>
       </div>
     )

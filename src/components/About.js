@@ -9,7 +9,7 @@ const About = () => {
       
       <p>I can be found typing away at my favorite coffee shop, walking my dog around the block, or you can just drop me a line <strong>here</strong>.</p>
 
-      <h3>Here is my current tech stack:</h3>
+      <h2>Here is My Current Tech Stack:</h2>
     </div>
   )
 }
