@@ -49,3 +49,7 @@ a:hover {
 a:active {
   color: rgb(49, 209, 49); 
 }
+
+.tech-stack img {
+  padding: 10px 20px;
+}
