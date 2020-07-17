@@ -14,14 +14,14 @@
 }
 
 .contact input[type=text] {
-  width: 400px;
-  height: 20px;
+  width: 600px;
+  height: 30px;
   margin-bottom: 5px;
 }
 
 .contact textarea {
-  width: 403px;
-  height: 140px;
+  width: 603px;
+  height: 250px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -47,5 +47,5 @@ a:hover {
 }
 
 a:active {
-  background-color: grey; 
+  color: rgb(49, 209, 49); 
 }
