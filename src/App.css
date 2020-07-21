@@ -9,6 +9,10 @@
   padding: 1px;
 }
 
+.about p {
+  width: 600px;
+}
+
 #medium-widget {
   text-align: left;
 }
@@ -52,4 +56,12 @@ a:active {
 
 .tech-stack img {
   padding: 10px 20px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  border: 2px solid black;
 }
