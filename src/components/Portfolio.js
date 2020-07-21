@@ -7,7 +7,8 @@ import workouts from '../assets/portfolio/workouts.png'
 const Portfolio = () => {
   return(
     <div className='portfolio'>
-      <h2>Here Are My Solo Projects:</h2>
+      <h2>Projects</h2>
+      <h3>Code, debug, pet dog. Repeat</h3>
 
       <div className='project'>
         <img src={datescope} alt='datescope' width='600' />
