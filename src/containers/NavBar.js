@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SocialMedia from '../components/SocialMedia'
 
 const NavBar = () => {
   return(
@@ -10,7 +9,6 @@ const NavBar = () => {
       <Link to='#'>Portfolio</Link>
       <Link to='#'>Blog</Link>
       <Link to='#'>Contact</Link>
-      <SocialMedia/>
     </div>
   )
 }
