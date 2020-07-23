@@ -6,10 +6,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about p {
-  width: 600px;
-}
-
 #medium-widget {
   text-align: left;
 }
@@ -27,6 +23,7 @@
 }
 
 .navbar {
+  padding: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,12 +37,11 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 50px;
+  height: 85px;
 }
 
 .navbar, .footer {
   background-color: black;
-  padding: 10px;
   color: white;
 }
 
@@ -59,12 +55,12 @@
   font-size: 20px;
 }
 
-.social-media { 
-  padding-top: 20px;
+.social-media  img{ 
+  padding: 10px 15px 0;
 }
 
 .home {
-  margin-top: 150px;
+  margin-top: 115px;
 }
 
 a:hover {
@@ -76,11 +72,11 @@ a.active {
 }
 
 .tech-stack img {
-  padding: 10px 20px;
+  padding: 30px;
 }
 
 .project {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .project img {
@@ -88,5 +84,7 @@ a.active {
 }
 
 .contact {
-  padding-bottom: 125px;
+  padding-bottom: 150px;
+  display: block;
+
 }
