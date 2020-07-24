@@ -8,6 +8,7 @@
 
 #medium-widget {
   text-align: left;
+  padding-left: 200px;
 }
 
 .contact input[type=text] {
@@ -24,6 +25,7 @@
 
 .navbar {
   padding: 20px;
+  padding-left: 75px;
   position: fixed;
   top: 0;
   left: 0;
@@ -86,5 +88,9 @@ a.active {
 .contact {
   padding-bottom: 150px;
   display: block;
+}
 
+.about p {
+  padding-left: 200px;
+  padding-right: 200px;
 }
