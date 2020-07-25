@@ -20,7 +20,7 @@ const Portfolio = () => {
       </div>
 
       <div className='project'>
-        <img src={party} alt='costume party' width='600' />
+        <img className='party' src={party} alt='costume party' width='600' />
 
         <br/>
 

@@ -6,6 +6,10 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.blog {
+  margin: auto;
+}
+
 #medium-widget {
   text-align: left;
   padding-left: 200px;
@@ -77,8 +81,14 @@ a.active {
   padding: 30px;
 }
 
+.portfolio {
+  display: block;
+  margin: auto;
+}
+
 .project {
   margin-bottom: 20px;
+  float: left;
 }
 
 .project img {
