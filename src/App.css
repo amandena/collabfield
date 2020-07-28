@@ -88,11 +88,7 @@ a.active {
 
 .project {
   margin-bottom: 20px;
-  float: left;
-}
-
-.project img {
-  border: 2px solid black;
+  /* float: left; */
 }
 
 .contact {
@@ -101,6 +97,7 @@ a.active {
 }
 
 .about p {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: left;
 }
