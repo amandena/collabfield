@@ -13,13 +13,41 @@ class Contact extends React.Component {
     })
   }
 
+  handleSubmit = e => {
+    e.preventDefault()
+    
+    fetch('http://localhost:3000/send', {
+      method: 'POST',
+      body: JSON.stringify(this.state),
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    })
+      .then(res => res.json())
+      .then(data => {
+        if(data.status === 'success') {
+          alert('Message Sent.')
+          this.setState({
+            name: '',
+            email: '',
+            message: ''
+          })
+        } else if(data.status === 'fail') {
+          alert('Message failed to send.')
+        }
+      })
+
+    
+  }
+
   render() {
     return(
       <div className='contact'>
         <h2>Contact</h2>
         <h3>Get in touch</h3>
   
-        <form>
+        <form onSubmit={this.handleSubmit}>
           <input 
             type='text' 
             placeholder='Name'
