@@ -24,17 +24,17 @@ const About = () => {
       <h3>Work smarter, not harder</h3>
 
       <div className='tech-stack'>
-        <img src={adobe} alt="adobe creative suite" width='70'/>
-        <img src={github} alt="github" width='75'/>
-        <img src={css} alt="css" width='65'/>
-        <img src={html} alt="html" width='67'/>
-        <img src={jquery} alt="jquery" width='80'/>
-        <img src={js} alt="javascript" width='70'/><br/>
-        <img src={react} alt="react" width='80'/>
-        <img src={redux} alt="redux" width='70'/>
-        <img src={ruby} alt="ruby" width='75'/>
-        <img src={rails} alt="rails" width='70'/>
-        <img src={sql} alt="sql" width='70'/>
+          <img src={adobe} title='Adobe Creative Suite' alt="adobe creative suite" width='70'/>
+          <img src={github} title='GitHub' alt="github" width='75'/>
+          <img src={css} title='CSS3' alt="css" width='65'/>
+          <img src={html} title='HTML5' alt="html" width='67'/>
+          <img src={jquery} title='jQuery' alt="jquery" width='80'/>
+          <img src={js} title='JavaScript' alt="javascript" width='70'/>
+          <img src={react} title='React' alt="react" width='80'/>
+          <img src={redux} title='Redux' alt="redux" width='70'/>
+          <img src={ruby} title='Ruby' alt="ruby" width='75'/>
+          <img src={rails} title='Ruby on Rails' alt="rails" width='70'/>
+          <img src={sql} title='SQL' alt="sql" width='70'/>
       </div>
     </div>
   )

@@ -78,7 +78,7 @@ a.active {
 }
 
 .tech-stack img {
-  padding: 30px;
+  padding: 10px;
 }
 
 .portfolio {
@@ -100,4 +100,8 @@ a.active {
   padding-left: 400px;
   padding-right: 400px;
   text-align: left;
+}
+
+figure img {
+  align-items: left;
 }
