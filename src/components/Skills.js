@@ -11,14 +11,9 @@ import ruby from '../assets/skills/ruby.png'
 import rails from '../assets/skills/rails-2-1175112.png'
 import sql from '../assets/skills/sql.png'
 
-const About = () => {
+const Skills = () => {
   return(
-    <div className='about'>
-      <p>Hi! I'm Amanda.</p>
-
-      <p>I've been a barista, dog walker, fitness influencer, graphic designer, and managed a successful physical therapy company. After falling in love with coding, I now create applications for the web and am looking for a new full time role as a Full Stack Software Engineer.</p>
-      
-      <p>I can be found typing away at my favorite coffee shop, walking my dog around the block, or you can just drop me a line <strong>here</strong>.</p>
+    <div className='skills'>
 
       <h2>Skills</h2>
       <h3>Work smarter, not harder</h3>
@@ -40,6 +35,5 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills
 
-// <img src={js} alt='' width='40'/>

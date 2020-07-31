@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Home from './components/Home'
-import About from './components/About'
+import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
@@ -13,7 +13,7 @@ function App() {
     <div className='App'>
       <NavBar/>
       <Home/>
-      <About/>
+      <Skills/>
       <Portfolio/>
       <Blog/>
       <Contact/>
