@@ -8,11 +8,17 @@
 
 .blog {
   margin: auto;
+  margin-bottom: 50px;
 }
 
 #medium-widget {
   text-align: left;
   padding-left: 200px;
+}
+
+.contact {
+  padding-bottom: 150px;
+  display: block;
 }
 
 .contact input[type=text] {
@@ -81,6 +87,10 @@ a.active {
   padding: 10px;
 }
 
+.portfolio {
+  margin-bottom: 50px;
+}
+
 .projects {
   display: flex;
   flex-direction: row;
@@ -91,9 +101,8 @@ a.active {
   margin: 20px;
 }
 
-.contact {
-  padding-bottom: 150px;
-  display: block;
+.about {
+  margin-bottom: 50px;
 }
 
 .about p {
