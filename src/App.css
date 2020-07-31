@@ -8,7 +8,7 @@
 
 .blog {
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #medium-widget {
@@ -17,7 +17,7 @@
 }
 
 .contact {
-  padding-bottom: 150px;
+  padding-bottom: 200px;
   display: block;
 }
 
@@ -71,10 +71,6 @@
   padding: 10px 15px 0;
 }
 
-.home {
-  margin-top: 115px;
-}
-
 a:hover {
   color: grey;
 }
@@ -88,7 +84,7 @@ a.active {
 }
 
 .portfolio {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .projects {
@@ -101,16 +97,17 @@ a.active {
   margin: 20px;
 }
 
-.about {
-  margin-bottom: 50px;
+.home {
+  margin-top: 175px;
+  margin-bottom: 100px;
 }
 
-.about p {
+.home p {
   padding-left: 400px;
   padding-right: 400px;
   text-align: left;
 }
 
-figure img {
-  align-items: left;
+.skills {
+  margin-bottom: 100px;
 }
