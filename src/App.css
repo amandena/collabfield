@@ -19,6 +19,8 @@
 .contact {
   padding-bottom: 200px;
   display: block;
+  background-color: grey;
+  padding-top: 30px;
 }
 
 .contact input[type=text] {
@@ -85,6 +87,8 @@ a.active {
 
 .portfolio {
   margin-bottom: 100px;
+  background-color: grey;
+  padding: 30px 0;
 }
 
 .projects {
