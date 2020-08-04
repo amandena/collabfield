@@ -109,7 +109,11 @@ a.active {
 .home {
   padding-top: 175px;
   padding-bottom: 100px;
-  
+  background-image: url('./assets/leavesbg-01.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 .home p {
@@ -119,5 +123,6 @@ a.active {
 }
 
 .skills {
-  margin-bottom: 100px;
+  padding-top: 75px;
+  padding-bottom: 100px;
 }
