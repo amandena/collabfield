@@ -120,6 +120,19 @@ a.active {
   padding-left: 400px;
   padding-right: 400px;
   text-align: left;
+  font-size: 18px;
+}
+
+.home h1 {
+  font-size: 50px;
+}
+
+.home h3 {
+  font-size: 30px;
+}
+
+.home img {
+  /* display: block; */
 }
 
 .skills {
