@@ -133,7 +133,7 @@ a.active {
 }
 
 .home img {
-  /* display: block; */
+  border-radius: 50%;
 }
 
 .skills {
