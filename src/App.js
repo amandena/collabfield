@@ -20,6 +20,10 @@ function App() {
         <Route exact path='/blog' component={Blog} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
+      <Skills />
+      <Portfolio />
+      <Blog />
+      <Contact />
       <Footer/>
     </div>
   )
