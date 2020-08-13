@@ -25,7 +25,7 @@ body {
 .contact {
   padding-bottom: 200px;
   display: block;
-  background-color: grey;
+  background-color: rgb(165, 162, 162);
   padding-top: 100px;
 }
 
@@ -80,11 +80,29 @@ body {
 }
 
 a:hover {
-  color: grey;
+  color: orange;
 }
 
 a.active {
   color: rgb(49, 209, 49); 
+}
+
+.projects a {
+  text-decoration: none;
+  color: white;
+}
+
+.projects a:hover {
+ color: black;
+}
+
+.home a {
+  color: orange;
+  text-decoration: none;
+}
+
+.home a:hover {
+  color: yellow;
 }
 
 .tech-stack img {
@@ -93,7 +111,7 @@ a.active {
 
 .portfolio {
   padding-top: 100px;
-  background-color: grey;
+  background-color: rgb(165, 162, 162);
   padding-bottom: 100px;
 }
 
@@ -126,10 +144,17 @@ a.active {
 
 .home h1 {
   font-size: 50px;
+  margin-bottom: 0;
 }
 
-h2 {
+.home h2 {
   font-size: 30px;
+  margin-top: 0;
+  color: rgb(165, 162, 162);
+}
+
+h3 {
+  color: rgb(88, 88, 88);
 }
 
 .home img {
