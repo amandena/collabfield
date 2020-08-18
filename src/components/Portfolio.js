@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img className='game' src={game} alt="amanda's game of life" width='370' />
+          <img className='game' src={game} alt="amanda's game of life" width='368' />
 
           <br/>
 
@@ -37,7 +37,7 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img src={workouts} alt='my workouts' width='420' />
+          <img src={workouts} alt='my workouts' width='424' />
 
           <br/>
 
