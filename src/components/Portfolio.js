@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import datescope from '../assets/portfolio/datescope.png'
 import game from '../assets/portfolio/game.png'
 import party from '../assets/portfolio/party.png'
@@ -16,8 +15,8 @@ const Portfolio = () => {
 
           <br/>
 
-          <Link to='https://github.com/amandena/datescope-frontend'>GitHub FE </Link>
-          <Link to='https://github.com/amandena/datescope-backend'>GitHub BE</Link>
+          <a href='https://github.com/amandena/datescope-frontend'>GitHub FE </a>
+          <a href='https://github.com/amandena/datescope-backend'>GitHub BE</a>
         </div>
 
         <div className='project'>
@@ -25,7 +24,7 @@ const Portfolio = () => {
 
           <br/>
 
-          <Link to='https://github.com/amandena/2020-04-19-Conways-Game-of-Life-4-day-extended/tree/master/amandas-project'>GitHub</Link>
+          <a href='https://github.com/amandena/2020-04-19-Conways-Game-of-Life-4-day-extended/tree/master/amandas-project'>GitHub</a>
         </div>
 
         <div className='project'>
@@ -33,7 +32,7 @@ const Portfolio = () => {
 
           <br/>
 
-          <Link to='https://github.com/amandena/costume-party-js-project'>GitHub</Link>
+          <a href='https://github.com/amandena/costume-party-js-project'>GitHub</a>
         </div>
 
         <div className='project'>
@@ -41,7 +40,7 @@ const Portfolio = () => {
 
           <br/>
 
-          <Link to='https://github.com/amandena/my-workouts-sinatra-project'>GitHub</Link>
+          <a href='https://github.com/amandena/my-workouts-sinatra-project'>GitHub</a>
         </div>
       </div>
     </div>
