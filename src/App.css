@@ -76,7 +76,7 @@ body {
 }
 
 .social-media  img { 
-  padding: 10px 15px 0;
+  margin: 10px 15px 0;
 }
 
 a:hover {
@@ -164,4 +164,9 @@ h3 {
 .skills {
   padding-top: 75px;
   padding-bottom: 100px;
+}
+
+.medium {
+  border-radius: 5px;
+  border: 1px solid white;
 }
