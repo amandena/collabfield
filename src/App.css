@@ -84,7 +84,7 @@ a:hover {
 }
 
 a.active {
-  color: rgb(49, 209, 49); 
+  color: rgb(184, 75, 11); 
 }
 
 .projects a {
@@ -102,7 +102,7 @@ a.active {
 }
 
 .home a:hover {
-  color: yellow;
+  color: rgb(184, 75, 11);
 }
 
 .tech-stack img {
