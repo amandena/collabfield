@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import image from '../assets/square.jpg'
 
 const Home = () => {
@@ -16,7 +16,14 @@ const Home = () => {
 
       <p>I graduated from Flatiron School's Full Stack Web Development program this year and also have a Bachelor's degree in Graphic Design from Full Sail University.</p>
       
-      <p>I can be found typing away at my favorite coffee shop, walking my dog around the block, or you can just drop me a line <Link to='/contact'>here</Link>.</p>
+      <p>I can be found typing away at my favorite coffee shop, walking my dog around the block, or you can just drop me a line <Link 
+        activeClass='active'
+        to='contact'
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >here</Link>.</p>
     </div>
   )
 }
