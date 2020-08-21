@@ -89,7 +89,7 @@ a.active {
 
 .projects a {
   text-decoration: none;
-  color: white;
+  color: rgb(88, 88, 88);
 }
 
 .projects a:hover {
