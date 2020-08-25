@@ -1,0 +1,42 @@
+.navbar {
+  padding: 20px;
+  padding-left: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer {
+  clear: both;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 85px;
+}
+
+.navbar, .footer {
+  background-color: black;
+  color: white;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-media  img { 
+  margin: 10px 15px 0;
+}
+
+.medium {
+  border-radius: 5px;
+  border: 1px solid white;
+}

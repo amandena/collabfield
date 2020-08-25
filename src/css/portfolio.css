@@ -1,0 +1,24 @@
+.projects a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+.projects a:hover {
+ color: black;
+}
+
+.portfolio {
+  padding-top: 100px;
+  background-color: rgb(165, 162, 162);
+  padding-bottom: 100px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project {
+  margin: 20px 0;
+}
