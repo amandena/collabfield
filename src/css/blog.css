@@ -6,5 +6,10 @@
 
 #medium-widget {
   text-align: left;
-  padding-left: 200px;
+  position: relative;
+  margin: 50px 150px 0;
 }
+
+/* #medium-widget-article__avatar-picture {
+  
+} */
