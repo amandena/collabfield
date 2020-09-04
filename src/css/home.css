@@ -20,7 +20,7 @@
 .home p {
   padding-left: 400px;
   padding-right: 400px;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
 }
 
@@ -33,6 +33,10 @@
   font-size: 30px;
   margin-top: 0;
   color: rgb(165, 162, 162);
+}
+
+.home h4 {
+  font-size: 20px;
 }
 
 .home img {

@@ -10,7 +10,7 @@ const Home = () => {
 
       <img className='profile-pic' src={image} alt="that's me!" width='400'/>
 
-      <p>Hi! I'm Amanda.</p>
+      <h4>Hi! I'm Amanda.</h4>
 
       <p>I've been a barista, dog walker, fitness influencer, graphic designer, and managed a successful physical therapy company. After falling in love with coding, I now create applications for the web and am looking for a new full time role as a Full Stack Software Engineer. I also recently started a position as a Software Engineer Intern for an early-stage startup.</p>
 
