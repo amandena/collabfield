@@ -11,7 +11,7 @@ const Portfolio = () => {
       <h3>Code, debug, pet dog. Repeat</h3>
       <div className='projects'>
         <div className='project'>
-          <img src={datescope} alt='datescope' width='380'/>
+          <img src={datescope} alt='datescope' width='276'/>
 
           <br/>
 
@@ -26,7 +26,7 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img className='game' src={game} alt="amanda's game of life" width='368' />
+          <img className='game' src={game} alt="amanda's game of life" width='268' />
 
           <br/>
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img className='party' src={party} alt='costume party' width='350' />
+          <img className='party' src={party} alt='costume party' width='255' />
 
           <br/>
 
@@ -54,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img src={workouts} alt='my workouts' width='424' />
+          <img src={workouts} alt='my workouts' width='312' />
 
           <br/>
 
