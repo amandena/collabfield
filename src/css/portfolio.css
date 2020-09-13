@@ -1,4 +1,4 @@
-.projects a {
+.projects a, .projects p, .projects em {
   text-decoration: none;
   color: rgb(88, 88, 88);
 }
@@ -22,4 +22,8 @@
 
 .project {
   margin: 20px 0;
+}
+
+.project h3 {
+  color: black;
 }
