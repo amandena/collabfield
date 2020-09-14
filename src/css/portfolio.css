@@ -1,10 +1,6 @@
-.projects a, .projects p, .projects em {
+.projects p, .projects em {
   text-decoration: none;
   color: rgb(88, 88, 88);
-}
-
-.projects a:hover {
- color: black;
 }
 
 .portfolio {
@@ -26,4 +22,36 @@
 
 .project h3 {
   color: black;
+}
+
+.project img {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.project img:hover {
+  opacity: 0.6;
+}
+
+.project a {
+  transition: .5s ease;
+  opacity: 0;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  opacity: 1;
 }
