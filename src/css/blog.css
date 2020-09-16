@@ -1,7 +1,6 @@
 .blog {
   margin: auto;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding: 75px 0;
 }
 
 #medium-widget {
@@ -9,7 +8,3 @@
   position: relative;
   margin: 50px 150px 0;
 }
-
-/* #medium-widget-article__avatar-picture {
-  
-} */

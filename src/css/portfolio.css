@@ -4,9 +4,8 @@
 }
 
 .portfolio {
-  padding-top: 100px;
+  padding: 75px 0;
   background-color: rgb(211, 206, 206);
-  padding-bottom: 100px;
 }
 
 .projects {
@@ -26,15 +25,7 @@
 }
 
 .project img {
-  opacity: 1;
   display: block;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.project img:hover {
-  opacity: 0.6;
 }
 
 .project a {
