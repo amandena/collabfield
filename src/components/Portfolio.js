@@ -8,7 +8,7 @@ const Portfolio = () => {
   return(
     <div className='portfolio'>
       <h2>Portfolio</h2>
-      <h3>Code, debug, pet dog. Repeat</h3>
+      <hr/>
       <div className='projects'>
         <div className='project'>
           <img src={datescope} alt='datescope' width='276'/>

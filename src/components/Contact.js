@@ -41,7 +41,6 @@ class Contact extends React.Component {
     return(
       <div className='contact'>
         <h2>Contact</h2>
-        <h3>Get in touch</h3>
   
         <form onSubmit={this.handleSubmit}>
           <input 

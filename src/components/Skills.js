@@ -16,7 +16,7 @@ const Skills = () => {
     <div className='skills'>
 
       <h2>Skills</h2>
-      <h3>Work smarter, not harder</h3>
+      <hr/>
 
       <div className='tech-stack'>
           <img src={adobe} title='Adobe Creative Suite' alt="adobe creative suite" width='70'/>

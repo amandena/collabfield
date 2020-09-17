@@ -8,7 +8,7 @@ class Blog extends React.Component {
     return(
       <div className='blog'>
         <h2>Blog</h2>
-        <h3>Don't understand? Let's write about it</h3>
+        <hr/>
 
         <div id="medium-widget"></div>
       </div>
