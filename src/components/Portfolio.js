@@ -11,7 +11,10 @@ const Portfolio = () => {
       <hr/>
       <div className='projects'>
         <div className='project'>
-          <img src={datescope} alt='datescope' width='276'/>
+          <div className='datescope-container'>
+            <div className='datescope'></div>
+          </div>
+          
 
           <br/>
           <h3>Datescope</h3>

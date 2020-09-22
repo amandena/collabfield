@@ -24,7 +24,17 @@
   color: black;
 }
 
-.project img {
+.datescope-container {
+  width: 276px;
+  height: 167px;
+}
+
+.datescope {
+  background-image: url('../assets/portfolio/datescope.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
