@@ -1,6 +1,4 @@
 import React from 'react'
-import party from '../assets/portfolio/party.png'
-import workouts from '../assets/portfolio/workouts.png'
 
 const Portfolio = () => {
   return(
@@ -61,7 +59,9 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img src={workouts} alt='my workouts' width='312' />
+          <div className='workouts-container'>
+            <div className='workouts'></div>
+          </div>
 
           <br/>
 
