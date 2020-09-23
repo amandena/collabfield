@@ -44,7 +44,9 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img className='party' src={party} alt='costume party' width='255' />
+          <div className='party-container'>
+            <div className='party'></div>
+          </div>
 
           <br/>
 
