@@ -1,6 +1,4 @@
 import React from 'react'
-import datescope from '../assets/portfolio/datescope.png'
-import game from '../assets/portfolio/game.png'
 import party from '../assets/portfolio/party.png'
 import workouts from '../assets/portfolio/workouts.png'
 
@@ -29,14 +27,16 @@ const Portfolio = () => {
         </div>
 
         <div className='project'>
-          <img className='game' src={game} alt="amanda's game of life" width='268' />
+          <div className='game-container'>
+            <div className='game'></div>
+          </div>
 
           <br/>
 
           <h3>Conway's Game of Life</h3>
           <em>Recreated Conway’s Game of Life for a solo Hackathon submission.</em>
 
-          <p>For ththis project, I developed a single-page game utilizing React, HTML5, & CSS3 which is maintaining and controlling state flow with the React state object.</p>
+          <p>For this project, I developed a single-page game utilizing React, HTML5, & CSS3 which is maintaining and controlling state flow with the React state object.</p>
 
           <br/>
 
