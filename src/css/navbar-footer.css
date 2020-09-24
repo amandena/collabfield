@@ -46,6 +46,10 @@
   margin: 10px 15px 0;
 }
 
+.social-media img:hover {
+  opacity: .7;
+}
+
 .medium {
   border-radius: 5px;
   border: 1px solid white;
