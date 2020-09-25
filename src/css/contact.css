@@ -7,11 +7,27 @@
 .contact input[type=text] {
   width: 600px;
   height: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  border: none;
 }
 
 .contact textarea {
   width: 603px;
   height: 250px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+
+.contact input[type=submit] {
+  background-color: rgb(88, 88, 88);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-top: 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.contact input[type=submit]:hover {
+  background-color: rgb(148, 148, 148);
 }
