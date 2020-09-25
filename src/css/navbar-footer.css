@@ -31,11 +31,13 @@
   text-align: center;
   padding: 20px;
   text-decoration: none;
+  font-weight: bold;
   font-size: 20px;
 }
 
 .navbar a:hover {
   color: orange;
+  background-color: rgb(139, 138, 138);
 }
 
 .navbar a.active {
