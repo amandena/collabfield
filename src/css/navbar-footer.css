@@ -37,6 +37,8 @@
 
 .navbar a:hover {
   color: orange;
+  text-decoration-line: underline;
+  text-decoration-color: white;
   background-color: rgb(139, 138, 138);
 }
 
