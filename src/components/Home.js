@@ -63,7 +63,7 @@ const Home = () => {
       <h1>Amanda M Johnson</h1>
       <h2>
         <span
-          class='txt-rotate'
+          className='txt-rotate'
           data-period="1000"
           data-rotate='["Full Stack Software Engineer", "Full Stack Web Developer", "Software Engineer Intern", "Graphic Designer"]'
         ></span>
