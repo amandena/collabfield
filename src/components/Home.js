@@ -59,7 +59,7 @@ const Home = () => {
   }
 
   return(
-    <div className='home'>
+    <div className='home container'>
       <h1>Amanda M Johnson</h1>
       <h2>
         <span
@@ -77,14 +77,16 @@ const Home = () => {
 
       <p>I graduated from Flatiron School's Full Stack Web Development program earlier this year and have a Bachelor's degree in Graphic Design from Full Sail University.</p>
       
-      <p>You can find me walking my dog around the block, or you can just drop me a line <Link 
+      <p>You can find me walking my dog around the block, or you can just drop me a line 
+        <Link 
         activeClass='active'
         to='contact'
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
-      >here</Link>.</p>
+        > here</Link>.
+      </p>
     </div>
   )
 }

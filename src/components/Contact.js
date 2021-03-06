@@ -39,7 +39,7 @@ class Contact extends React.Component {
 
   render() {
     return(
-      <div className='contact'>
+      <div className='contact container'>
         <h2>Contact</h2>
   
         <form onSubmit={this.handleSubmit}>

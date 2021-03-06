@@ -13,7 +13,7 @@ import sql from '../assets/skills/sql.png'
 
 const Skills = () => {
   return(
-    <div className='skills'>
+    <div className='skills container'>
 
       <h2>Skills</h2>
       <hr/>

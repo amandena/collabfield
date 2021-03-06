@@ -7,7 +7,7 @@ class Blog extends React.Component {
   
   render() {
     return(
-      <div className='blog'>
+      <div className='blog container'>
         <h2>Blog</h2>
         <hr/>
         <div id="medium-widget"></div>

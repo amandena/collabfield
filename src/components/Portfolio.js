@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return(
-    <div className='portfolio'>
+    <div className='portfolio container'>
       <h2>Portfolio</h2>
       <hr/>
       <div className='projects'>
@@ -11,7 +11,6 @@ const Portfolio = () => {
             <div className='datescope'></div>
           </div>
           
-
           <br/>
           <h3>Datescope</h3>
           <em>Connect on a deeper level to find your true soulmate with matching based on horoscope compatibility.</em>
