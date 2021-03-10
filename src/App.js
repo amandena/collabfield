@@ -18,7 +18,7 @@ import Redirect404 from './components/Redirect404'
 
 function App() {
   return(
-    <div className='App'>
+    <div className='App-container'>
       <NavBar/>
       <Home />
       <Skills />

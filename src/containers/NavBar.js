@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const NavBar = () => {
   return(
-    <div className='navbar'>
+    <div className='navbar container'>
       <Link 
         activeClass='active'
         to='home'
