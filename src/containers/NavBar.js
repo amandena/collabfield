@@ -12,10 +12,11 @@ const NavBar = () => {
   ]
 
   return (
-    <div className='navbar container'>
+    <div className='navbar navbar-expand-md navbar-light container'>
       {links.map((link, i) => 
         <Link 
           key={i}
+          className="nav-item mx-md-4 nav-link active"
           activeClass='active'
           to={link.key}
           spy={true}
