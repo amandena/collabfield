@@ -20,15 +20,17 @@ function App() {
   return(
     <div className='App-container'>
       <NavBar/>
-      <Home />
-      <Skills />
-      <Portfolio />
-      <Blog />
-      <Contact />
-      <Footer/>
-      <Switch>
-        <Route path="*" component={Redirect404} />
-      </Switch>
+      <div className="content-body-container">
+        <Home />
+        <Skills />
+        <Portfolio />
+        <Blog />
+        <Contact />
+        <Footer/>
+        <Switch>
+          <Route path="*" component={Redirect404} />
+        </Switch>
+      </div>
     </div>
   )
 }
