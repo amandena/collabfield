@@ -40,43 +40,56 @@ class Contact extends React.Component {
   render() {
     return(
       <div className='contact container'>
-        <h2>Contact</h2>
-  
+        <div className='row'>
+          <div className='col'>
+            <h2>Contact</h2>
+          </div>
+        </div>
         <form onSubmit={this.handleSubmit}>
-          <input 
-            type='text' 
-            placeholder='Name'
-            name='name'
-            value={this.state.name}
-            onChange={this.handleChange}
-          />
-  
-          <br/>
-  
-          <input 
-            type='text' 
-            placeholder='Email'
-            name='email'
-            value={this.state.email} 
-            onChange={this.handleChange}
-          />
-  
-          <br/>
-  
-          <textarea 
-            type='text' 
-            placeholder='Message'
-            name='message'
-            value={this.state.message} 
-            onChange={this.handleChange}
-          />
-  
-          <br/>
-  
-          <input 
-            type='submit' 
-            value='Send' 
-          />
+          <div className="row">
+            <div className="col-8 offset-2 spacer-xs">
+              <div className='form-floating'>
+                <input 
+                  type='text' 
+                  placeholder='Name'
+                  name='name'
+                  value={this.state.name}
+                  onChange={this.handleChange}
+                />
+              </div>
+            </div>
+            <br/>
+            <div className="col-8 offset-2 spacer-xs">
+              <div className='form-floating'>
+                <input 
+                  type='text' 
+                  placeholder='Email'
+                  name='email'
+                  value={this.state.email} 
+                  onChange={this.handleChange}
+                />
+              </div>
+            </div>
+            <br/>
+            <div className="col-8 offset-2 spacer-xs">
+              <div className='form-floating'>
+                <textarea 
+                  type='text' 
+                  placeholder='Message'
+                  name='message'
+                  value={this.state.message} 
+                  onChange={this.handleChange}
+                />
+              </div>
+            </div>
+            <br/>
+            <div className="col-md-12 center spacer-xs">
+              <input 
+                type='submit' 
+                value='Send' 
+              />
+            </div>
+          </div>
         </form>
       </div>
     )

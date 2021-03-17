@@ -6,13 +6,12 @@
 
 .contact input[type=text] {
   width: 600px;
-  height: 30px;
-  margin-bottom: 10px;
+  height: 40px;
   border: none;
 }
 
 .contact textarea {
-  width: 603px;
+  width: 600px;
   height: 250px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
