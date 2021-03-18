@@ -9,7 +9,7 @@ const SocialMedia = () => {
       <div className='row justify-content-center'>
         <a href='https://github.com/amandena'><img src={github} alt="github" width='25'/></a>
         <a href='https://www.linkedin.com/in/amandena/'><img src={linkedin} alt="linkedin" width='25'/></a>
-        <a href='https://medium.com/@manda.m.johnson'><img src={medium} className='medium' alt="medium" width='25' /></a>
+        <a href='https://amanda-m-johnson.medium.com/'><img src={medium} className='medium' alt="medium" width='25' /></a>
       </div>
     </div>
   )
