@@ -1,20 +1,17 @@
 .contact {
   padding: 75px 0 130px 0;
-  display: block;
   background-color: rgb(211, 206, 206);
 }
 
 .contact input[type=text] {
   width: 600px;
   height: 40px;
-  border: none;
 }
 
 .contact textarea {
   width: 600px;
   height: 250px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border: none;
 }
 
 .contact input[type=submit] {
