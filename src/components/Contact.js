@@ -47,9 +47,11 @@ class Contact extends React.Component {
         </div>
         <form onSubmit={this.handleSubmit}>
           <div className="row">
-            <div className="col-8 offset-2 spacer-xs">
+            <div className="input-group col-8 offset-2 spacer-xs">
               <div className='form-floating'>
                 <input 
+                  autoComplete='off'
+                  className='form-control'
                   type='text' 
                   placeholder='Name'
                   name='name'
@@ -59,9 +61,11 @@ class Contact extends React.Component {
               </div>
             </div>
             <br/>
-            <div className="col-8 offset-2 spacer-xs">
+            <div className="input-group col-8 offset-2 spacer-xs">
               <div className='form-floating'>
                 <input 
+                  autoComplete='off'
+                  className='form-control'
                   type='text' 
                   placeholder='Email'
                   name='email'
@@ -71,9 +75,11 @@ class Contact extends React.Component {
               </div>
             </div>
             <br/>
-            <div className="col-8 offset-2 spacer-xs">
+            <div className="input-group col-8 offset-2 spacer-xs">
               <div className='form-floating'>
                 <textarea 
+                  autoComplete='off'
+                  className='form-control'
                   type='text' 
                   placeholder='Message'
                   name='message'
