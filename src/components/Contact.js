@@ -1,12 +1,15 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
+import { Formik, Field, Form, ErrorMessage } from 'formik'
+import * as Yup from 'yup'
 
-class Contact extends React.Component {
-  state = {
-    name: '',
-    email: '',
-    message: ''
-  }
+const contactSchema = Yup.object().shape({
+  name: Yup.string().required('Please enter your name.'),
+  email: Yup.string().email('Invalid email address.').required('Please enter your email.'),
+  message: Yup.string().required('Please enter your message.')
+})
+
+const Contact = () => {
 
   handleChange = e => {
     this.setState({
@@ -29,7 +32,7 @@ class Contact extends React.Component {
     }
   }
 
-  resetForm(){
+  resetForm = () => {
     this.setState({
       name: '',
       email: '',
@@ -37,8 +40,7 @@ class Contact extends React.Component {
     })
   }
 
-  render() {
-    return(
+    return (
       <div className='contact container'>
         <div className='row'>
           <div className='col'>
@@ -99,8 +101,6 @@ class Contact extends React.Component {
         </form>
       </div>
     )
-  }
-  
 }
 
 export default Contact
