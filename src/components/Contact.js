@@ -11,35 +11,6 @@ const contactSchema = Yup.object().shape({
 
 const Contact = () => {
 
-  handleChange = e => {
-    this.setState({
-      [e.target.name]: e.target.value
-    })
-  }
-
-  handleSubmit = e => {
-    e.preventDefault()
-    if(this.state.name !== '' && (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(this.state.email)) && this.state.message !== '') {
-      emailjs.send('default_service','template_kntisvj', this.state, 'user_ymh1s3CUbm1cv7wsJDyxc')
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text)
-        this.resetForm()
-      }, (err) => {
-        console.log('FAILED...', err)
-      })
-    } else {
-      alert('Please fill in all fields and use a valid email address to send a message!')
-    }
-  }
-
-  resetForm = () => {
-    this.setState({
-      name: '',
-      email: '',
-      message: ''
-    })
-  }
-
     return (
       <div className='contact container'>
         <div className='row'>
@@ -47,58 +18,83 @@ const Contact = () => {
             <h2>Contact</h2>
           </div>
         </div>
-        <form onSubmit={this.handleSubmit}>
-          <div className="row">
-            <div className="input-group col-8 offset-2 spacer-xs">
-              <div className='form-floating'>
-                <input 
-                  autoComplete='off'
-                  className='form-control'
-                  type='text' 
-                  placeholder='Name'
-                  name='name'
-                  value={this.state.name}
-                  onChange={this.handleChange}
-                />
+        <Formik
+          initialValues={{
+            name: '',
+            email: '',
+            message: ''
+        }}
+          validationSchema={contactSchema}
+          onSubmit={async (values, {setStatus, resetForm}) => {
+            const response = await emailjs.send('default_service','template_kntisvj', values, 'user_ymh1s3CUbm1cv7wsJDyxc')
+            if (response && response.status >= 300) {
+              setStatus({message: "Something went wrong. Please try again later."})
+            } else {
+              setStatus({message: "Profile picture uploaded successfully!"})
+              resetForm()
+            }
+          }}  
+        >
+          {({ touched, errors, status }) => (
+            <Form>
+              <div className="row">
+                <div className="input-group col-8 offset-2 spacer-xs">
+                  <div className='form-floating'>
+                    <Field 
+                      id='nameFloat'
+                      autoComplete='off'
+                      className={`form-control input-lg ${touched.name && errors.name ? "is-invalid" : ""}`}
+                      type='text' 
+                      placeholder='Name'
+                      name='name'
+                    />
+                    <label htmlFor='nameFloat'>Name</label>
+                    <ErrorMessage name='name' className='invalid-feedback' component='div'/>
+                  </div>
+                </div>
+                <br/>
+                <div className="input-group col-8 offset-2 spacer-xs">
+                  <div className='form-floating'>
+                    <Field
+                      id='emailFloat'
+                      autoComplete='off'
+                      className={`form-control input-lg ${touched.email && errors.email ? "is-invalid" : ""}`}
+                      type='email' 
+                      placeholder='Email'
+                      name='email'
+                    />
+                    <label htmlFor='emailFloat'>Email</label>
+                    <ErrorMessage name='email' className='invalid-feedback' component='div'/>
+                  </div>
+                </div>
+                <br/>
+                <div className="input-group col-8 offset-2 spacer-xs">
+                  <div className='form-floating'>
+                    <Field 
+                      id='messageFloat'
+                      autoComplete='off'
+                      className={`form-control input-lg ${touched.message && errors.message ? "is-invalid" : ""}`}
+                      component='textarea' 
+                      placeholder='Message'
+                      name='message'
+                    />
+                    <label htmlFor='messageFloat'>Message</label>
+                    <ErrorMessage name='message' className='invalid-feedback' component='div'/>
+                  </div>
+                </div>
+                {status && status.message ? <div className={`col-8 offset-2 text-center alert ${status >= 300 ? "alert-danger" : "alert-success"}`}>{status.message}</div> : null}
+                <div className="col-md-12 center spacer-xs">
+                  <Field 
+                    id='sendMessage'
+                    type='submit' 
+                    value='SEND MESSAGE' 
+                    className="btn btn-primary" 
+                  />
+                </div>
               </div>
-            </div>
-            <br/>
-            <div className="input-group col-8 offset-2 spacer-xs">
-              <div className='form-floating'>
-                <input 
-                  autoComplete='off'
-                  className='form-control'
-                  type='text' 
-                  placeholder='Email'
-                  name='email'
-                  value={this.state.email} 
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
-            <br/>
-            <div className="input-group col-8 offset-2 spacer-xs">
-              <div className='form-floating'>
-                <textarea 
-                  autoComplete='off'
-                  className='form-control'
-                  type='text' 
-                  placeholder='Message'
-                  name='message'
-                  value={this.state.message} 
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
-            <br/>
-            <div className="col-md-12 center spacer-xs">
-              <input 
-                type='submit' 
-                value='Send' 
-              />
-            </div>
-          </div>
-        </form>
+            </Form>
+          )}
+        </Formik>
       </div>
     )
 }
