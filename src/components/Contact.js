@@ -48,7 +48,6 @@ const Contact = () => {
                       placeholder='Name'
                       name='name'
                     />
-                    <label htmlFor='nameFloat'>Name</label>
                     <ErrorMessage name='name' className='invalid-feedback' component='div'/>
                   </div>
                 </div>
@@ -63,7 +62,6 @@ const Contact = () => {
                       placeholder='Email'
                       name='email'
                     />
-                    <label htmlFor='emailFloat'>Email</label>
                     <ErrorMessage name='email' className='invalid-feedback' component='div'/>
                   </div>
                 </div>
@@ -78,7 +76,6 @@ const Contact = () => {
                       placeholder='Message'
                       name='message'
                     />
-                    <label htmlFor='messageFloat'>Message</label>
                     <ErrorMessage name='message' className='invalid-feedback' component='div'/>
                   </div>
                 </div>
