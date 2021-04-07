@@ -3,7 +3,7 @@
   background-color: rgb(211, 206, 206);
 }
 
-.contact input[type=text] {
+.contact input[type=text], .contact input[type=email] {
   width: 600px;
   height: 40px;
 }
