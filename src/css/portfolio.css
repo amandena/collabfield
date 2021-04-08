@@ -13,7 +13,7 @@
 
 .project {
   margin: 20px auto;
-  width: 300px;
+  width: 500px;
   background-color: rgba(255, 255, 255, 0.281);
   padding: 25px 25px 35px;
 }
@@ -23,8 +23,8 @@
 }
 
 .datescope-container {
-  width: 276px;
-  height: 167px;
+  width: 500px;
+  height: 341px;
 }
 
 .datescope {
