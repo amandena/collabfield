@@ -19,7 +19,7 @@ const Portfolio = () => {
 
           <br/>
 
-          <a href='https://github.com/amandena/datescope-frontend'>GitHub FE </a>
+          <a href='https://github.com/amandena/datescope-frontend'>GitHub FE</a>
           <a href='https://github.com/amandena/datescope-backend'>GitHub BE</a>
         </div>
 
