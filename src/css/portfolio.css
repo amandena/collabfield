@@ -37,8 +37,8 @@
 }
 
 .game-container {
-  width: 268px;
-  height: 168px;
+  width: 500px;
+  height: 368px;
 }
 
 .game {
@@ -51,8 +51,8 @@
 }
 
 .party-container {
-  width: 255px;
-  height: 168px;
+  width: 500px;
+  height: 330px;
 }
 
 .party {
@@ -65,8 +65,8 @@
 }
 
 .workouts-container {
-  width: 312px;
-  height: 169px;
+  width: 500px;
+  height: 270px;
 }
 
 .workouts {
